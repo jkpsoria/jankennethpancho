@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafaf0;
+    font-weight: 500;
+
+}
+
+a {
+    margin: 10px 15px;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+    color: #BB9981;
+    line-height: 2;
+}
+
+h2 {
+
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    color: #BB9981;
+    font-weight: normal;
+}
+
+h3 {
+
+    font-family: 'Merriweather', serif;
+    color: #534340;
+}
+
+hr {
+    border: dotted 6px;
+    color: #C5D8A4;
+    width: 5%;
+    border-bottom: none;
+    margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+.bio {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.bottom-container {
+    background-color: #C5D8A4;
+    padding-top: 20px;
+    padding-bottom: 20;
+    margin-top: 50px;
+
+}
+
+
+.top {
+    background-color: #F7F6DC;
+    ;
+    padding-top: 100px;
+    position: relative;
+
+
+}
+
+
+
+.profile {
+    margin: 50px 0;
+}
+
+/* .mid {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.bot {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+} */
+
+.code-image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+
+
+.cloud1 {
+    position: absolute;
+    right: 400px;
+
+}
+
+.cloud2 {
+    position: absolute;
+    right: 100px;
+    bottom: 220px;
+}
+
+.cloud3 {
+    position: absolute;
+    transform: scaleX(-1);
+
+}
+
+
+.guitar-image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+
+
+}
+
+
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+
+
+
+
+.btn {
+
+    background: #534340;
+    background-image: -webkit-linear-gradient(top, #534340, #BB9981);
+    background-image: -moz-linear-gradient(top, #534340, #BB9981);
+    background-image: -ms-linear-gradient(top, #534340, #BB9981);
+    background-image: -o-linear-gradient(top, #534340, #BB9981);
+    background-image: linear-gradient(to bottom, #534340, #BB9981);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #F4FCD9;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #BB9981;
+    background-image: -webkit-linear-gradient(top, #BB9981, #534340);
+    background-image: -moz-linear-gradient(top, #BB9981, #534340);
+    background-image: -ms-linear-gradient(top, #BB9981, #534340);
+    background-image: -o-linear-gradient(top, #BB9981, #534340);
+    background-image: linear-gradient(to bottom, #BB9981, #534340);
+    text-decoration: none;
+}
+
+.footer-img:hover {
+    width: 50px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    /* add styles for screens smaller than 600px here */
+
+    h1{
+        font-size: 300%;
+    }
+
+    .sub{
+        font-size: 100%;
+    }
+
+    .mountain {
+        width: 300px;
+    }
+
+
+    .cloud1 {
+        position: absolute;
+        right: 200px;
+        width: 50px;
+
+    }
+
+    .cloud2 {
+        position: absolute;
+        right: 100px;
+        bottom: 120px;
+        width: 50px;
+    }
+
+    .cloud3 {
+        position: absolute;
+        transform: scaleX(-1);
+        width: 50px;
+    }
+}
